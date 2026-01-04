@@ -1,0 +1,60 @@
+title: Mario Malizia
+first_name: Mario
+last_name: Malizia
+description: > 
+  Research Engineer at the Royal Military Academy of Belgium & PhD Candidate at KU Leuven.
+lang: en 
+icon: mario_lidar.jpg 
+
+remote_theme: alshedivat/al-folio
+include: ["_pages"]
+
+# -----------------------------------------------------------------------------
+# Layout
+# -----------------------------------------------------------------------------
+navbar_fixed: false
+navbar_hide_title: true   
+header_pages: []          
+footer_fixed: false
+max_width: 800px 
+
+# -----------------------------------------------------------------------------
+# Profilo
+# -----------------------------------------------------------------------------
+profile:
+  align: right
+  image: mario_auh.jpg
+  image_circular: true 
+
+# -----------------------------------------------------------------------------
+# Pubblicazioni
+# -----------------------------------------------------------------------------
+enable_publication_thumbnails: true
+
+# Questi badge ora servono solo se decidi di usare il plugin scholar automatico
+display_publications_badges:
+  "ICCAS": "primary"
+  "IEEE RA-L": "success"
+  "Oral": "warning"
+
+scholar:
+  last_name: [Malizia]
+  style: apa
+  source: /_bibliography/
+  bibliography: papers.bib
+  group_by: none
+
+# -----------------------------------------------------------------------------
+# Plugins
+# -----------------------------------------------------------------------------
+plugins:
+  - jekyll-remote-theme
+  - jekyll-imagemagick
+  - jekyll/scholar
+  - jekyll-sitemap
+
+# -----------------------------------------------------------------------------
+# Social (Svuotato perché gestito manualmente in about.md)
+# -----------------------------------------------------------------------------
+social:
+  # Gestiti in about.md per un look più pulito accanto al nome
