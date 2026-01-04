@@ -90,7 +90,7 @@ social: false
       <div style="font-style: italic;"><strong>Mario Malizia</strong>, Charles Hamesse, Ken Hasselmann, Geert De Cubber, Nikolaos Tsiogkas, Eric Demeester, and Rob Haelterman</div>
       <div style="margin-top: 5px;">
         <span class="badge" style="background-color: #34a853; color: white; padding: 5px 10px;">IEEE RA-L</span>
-        <span class="badge" style="background-color: #757575; color: white; padding: 5px 10px;">Journal</span>
+        <!-- <span class="badge" style="background-color: #757575; color: white; padding: 5px 10px;">Journal</span> -->
       </div>
       <div style="margin-top: 10px;">
         <a href="https://ieeexplore.ieee.org/document/11297788" class="btn btn-sm z-depth-0" role="button" style="border: 1px solid #4285f4; color: #4285f4; margin-right: 5px;">Paper</a>
