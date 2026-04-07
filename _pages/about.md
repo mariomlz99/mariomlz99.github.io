@@ -112,6 +112,7 @@ social: false
       </div>
       <div style="margin-top: 10px;">
         <a href="https://ieeexplore.ieee.org/document/11301116/" class="btn btn-sm z-depth-0" role="button" style="border: 1px solid #4285f4; color: #4285f4;">Paper</a>
+        <a href="https://github.com/mariomlz99/pfm1-thermal-detection" class="btn btn-sm z-depth-0" role="button" style="border: 1px solid #333; color: #333;">GitHub</a>
       </div>
     </div>
   </div>
