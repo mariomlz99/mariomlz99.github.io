@@ -107,7 +107,7 @@ social: false
       <div style="font-weight: bold; font-size: 1.1em;">PFM-1 Landmine Detection in Vegetation Using Thermal Imaging with Limited Training Data (2025)</div>
       <div style="font-style: italic;"><strong>Mario Malizia</strong>, Ken Hasselmann, Alessandra Miuccio, Rob Haelterman, Nikolaos Tsiogkas, and Eric Demeester</div>
       <div style="margin-top: 5px;">
-        <span class="badge" style="background-color: #4285f4; color: white; padding: 5px 10px;">ICCAS</span>
+        <span class="badge" style="background-color: #4285f4; color: white; padding: 5px 10px;">IEEE ICCAS</span>
         <span class="badge" style="background-color: #ff9800; color: white; padding: 5px 10px;">Oral</span>
       </div>
       <div style="margin-top: 10px;">
