@@ -1,7 +1,5 @@
 source "https://rubygems.org"
 gem "jekyll", "~> 4.3.2"
 gem "jekyll-remote-theme"
-gem "jekyll-scholar"
-gem "jekyll-imagemagick"
 gem "jekyll-sitemap"
 gem "webrick"

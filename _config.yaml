@@ -31,26 +31,17 @@ profile:
 # -----------------------------------------------------------------------------
 enable_publication_thumbnails: true
 
-# Questi badge ora servono solo se decidi di usare il plugin scholar automatico
+# Questi badge restano disponibili anche con le pubblicazioni gestite manualmente
 display_publications_badges:
   "ICCAS": "primary"
   "IEEE RA-L": "success"
   "Oral": "warning"
-
-scholar:
-  last_name: [Malizia]
-  style: apa
-  source: /_bibliography/
-  bibliography: papers.bib
-  group_by: none
 
 # -----------------------------------------------------------------------------
 # Plugins
 # -----------------------------------------------------------------------------
 plugins:
   - jekyll-remote-theme
-  - jekyll-imagemagick
-  - jekyll/scholar
   - jekyll-sitemap
 
 # -----------------------------------------------------------------------------
