@@ -1,5 +1,5 @@
 source "https://rubygems.org"
 gem "jekyll", "~> 4.3.2"
-gem "jekyll-remote-theme"
-gem "jekyll-sitemap"
+gem "jekyll-remote-theme", "~> 0.4.3"
+gem "jekyll-sitemap", "~> 1.4"
 gem "webrick"
