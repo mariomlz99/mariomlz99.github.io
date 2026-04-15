@@ -8,7 +8,7 @@ icon: mario_lidar.jpg
 url: https://mariomlz99.github.io
 baseurl:
 
-remote_theme: alshedivat/al-folio
+remote_theme: alshedivat/al-folio@v0.14.7
 include: ["_pages"]
 
 # -----------------------------------------------------------------------------
@@ -64,6 +64,20 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
+
+# -----------------------------------------------------------------------------
+# Build / asset pipeline
+# -----------------------------------------------------------------------------
+sass:
+  style: compressed
+
+jekyll-minifier:
+  compress_javascript: false
+  exclude: ["robots.txt", "assets/js/search/*.js"]
+
+terser:
+  compress:
+    drop_console: true
 
 # -----------------------------------------------------------------------------
 # Social (Svuotato perché gestito manualmente in about.md)

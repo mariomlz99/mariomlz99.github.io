@@ -40,7 +40,7 @@ jobs:
       - name: Build site
         env:
           JEKYLL_ENV: production
-        run: bundle exec jekyll build --trace
+        run: bundle exec jekyll build --trace --verbose
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
