@@ -8,44 +8,26 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.3.5"
-          bundler-cache: false
-      - name: Install gems
-        run: bundle install --jobs 4
-      - name: Setup Python
-        uses: actions/setup-python@v6
-        with:
-          python-version: "3.13"
-      - name: Install build dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y imagemagick
-          pip3 install --upgrade nbconvert
-      - name: Show build tool versions
-        run: |
-          ruby -v
-          bundle -v
-          bundle exec jekyll -v
-          python --version
-          convert -version | head -n 1
-      - name: Build site
-        env:
-          JEKYLL_ENV: production
-          JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: bundle exec jekyll build --trace --verbose
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          branch: gh-pages
-          folder: _site
-          clean: true
+          ruby-version: '3.2.2'
+          bundler-cache: true
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      - name: Build with Jekyll
+        run: bundle exec jekyll build
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
