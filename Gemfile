@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 gem "jekyll", "~> 4.3.2"
+gem "sass-embedded", ">= 1.79", "< 2.0"
 gem "jekyll-remote-theme"
 gem "jekyll-scholar"
 gem "jekyll-imagemagick"
