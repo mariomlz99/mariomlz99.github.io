@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 gem "jekyll"
+gem "jekyll-sass-converter", "~> 3.0.0"
 
 group :jekyll_plugins do
   gem "jekyll-archives-v2"
