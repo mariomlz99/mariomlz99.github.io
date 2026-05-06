@@ -4,7 +4,7 @@ permalink: /
 # Rimuovendo 'title: about' qui, eliminiamo il duplicato generato dal tema
 profile:
   align: right
-  image: mario_auh.jpg
+  image: mario_face.png
   image_circular: true 
 social: false
 ---
@@ -89,8 +89,8 @@ social: false
       <div style="font-weight: bold; font-size: 1.1em;">MineInsight: A Multi-Sensor Dataset for Humanitarian Demining Robotics in Off-Road Environments (2025)</div>
       <div style="font-style: italic;"><strong>Mario Malizia</strong>, Charles Hamesse, Ken Hasselmann, Geert De Cubber, Nikolaos Tsiogkas, Eric Demeester, and Rob Haelterman</div>
       <div style="margin-top: 5px;">
-        <span class="badge" style="background-color: #34a853; color: white; padding: 5px 10px;">IEEE RA-L</span>
-        <!-- <span class="badge" style="background-color: #757575; color: white; padding: 5px 10px;">Journal</span> -->
+        <span class="badge" style="background-color: #34a853; color: white; padding: 5px 10px;">RA-L</span>
+        <span class="badge" style="background-color: #ff9800; color: white; padding: 5px 10px;">ICRA Oral</span>
       </div>
       <div style="margin-top: 10px;">
         <a href="https://ieeexplore.ieee.org/document/11297788" class="btn btn-sm z-depth-0" role="button" style="border: 1px solid #4285f4; color: #4285f4; margin-right: 5px;">Paper</a>
@@ -107,7 +107,7 @@ social: false
       <div style="font-weight: bold; font-size: 1.1em;">PFM-1 Landmine Detection in Vegetation Using Thermal Imaging with Limited Training Data (2025)</div>
       <div style="font-style: italic;"><strong>Mario Malizia</strong>, Ken Hasselmann, Alessandra Miuccio, Rob Haelterman, Nikolaos Tsiogkas, and Eric Demeester</div>
       <div style="margin-top: 5px;">
-        <span class="badge" style="background-color: #4285f4; color: white; padding: 5px 10px;">IEEE ICCAS</span>
+        <span class="badge" style="background-color: #4285f4; color: white; padding: 5px 10px;">ICCAS</span>
         <span class="badge" style="background-color: #ff9800; color: white; padding: 5px 10px;">Oral</span>
       </div>
       <div style="margin-top: 10px;">
@@ -125,7 +125,7 @@ social: false
       <div style="font-weight: bold; font-size: 1.2em;">HADRON: Human-friendly Control and Artificial Intelligence for Military Drone Operations (2024)</div>
       <div style="font-style: italic;">Ana M. Casado Faulí, <strong>Mario Malizia</strong>, Ken Hasselmann, Emile Le Flécher, Geert De Cubber, and Ben Lauwens</div>
       <div style="margin-top: 5px;">
-        <span class="badge" style="background-color: #4285f4; color: white; padding: 5px 10px;">RO-MAN Workshop on Variable Autonomy for Human-Robot Teaming</span>
+        <span class="badge" style="background-color: #4285f4; color: white; padding: 5px 10px;">RO-MAN - Workshop on Variable Autonomy for Human-Robot Teaming</span>
       </div>
       <div style="margin-top: 10px;">
         <a href="https://arxiv.org/abs/2408.07063" class="btn btn-sm z-depth-0" role="button" style="border: 1px solid #4285f4; color: #4285f4;">Paper</a>
@@ -141,7 +141,7 @@ social: false
       <div style="font-weight: bold; font-size: 1.2em;">A multi-robot system for the detection of explosive devices (2024)</div>
       <div style="font-style: italic;">Ken Hasselmann, <strong>Mario Malizia</strong>, Rafael Caballero, Fabio Polisano, Shashank Govindaraj, Jakob Stigler, Oleksii Ilchenko, Milan Bajic, and Geert De Cubber</div>
       <div style="margin-top: 5px;">
-        <span class="badge" style="background-color: #4285f4; color: white; padding: 5px 10px;">ICRA Workshop on Field Robotics</span>
+        <span class="badge" style="background-color: #4285f4; color: white; padding: 5px 10px;">ICRA - Workshop on Field Robotics</span>
       </div>
       <div style="margin-top: 10px;">
         <a href="https://arxiv.org/pdf/2404.14167" class="btn btn-sm z-depth-0" role="button" style="border: 1px solid #4285f4; color: #4285f4;">Paper</a>
