@@ -43,9 +43,7 @@ display_publications_badges:
 # Plugins
 # -----------------------------------------------------------------------------
 plugins:
-  - jekyll-3rd-party-libraries
   - jekyll-archives-v2
-  - jekyll-cache-bust
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-get-json
@@ -58,7 +56,6 @@ plugins:
   - jekyll-regex-replace
   - jekyll/scholar
   - jekyll-sitemap
-  - jekyll-socials
   - jekyll-tabs
   - jekyll-terser
   - jekyll-toc

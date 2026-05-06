@@ -39,6 +39,7 @@ jobs:
       - name: Build site
         env:
           JEKYLL_ENV: production
+          JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: bundle exec jekyll build --trace --verbose
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
