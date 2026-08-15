@@ -86,7 +86,7 @@ social: false
       <img src="assets/img/publication_preview/2026_eccv_thumbnail.png" style="width: 100%; max-width: 180px; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);" alt="thumbnail">
     </div>
     <div class="col-sm-9" style="flex: 0 0 75%; max-width: 75%; padding-left: 20px;">
-      <div style="font-weight: bold; font-size: 1.1em;">Diffuse the Object, Keep Its Label: Curating Detector Training Data from a Few Unlabeled Photographs via VLM-Built 3D Vegetation Scenes (2026)</div>
+      <div style="font-weight: bold; font-size: 1.1em;">Diffuse the object, keep its label: curating detector training data from a few unlabeled photographs via VLM-built 3D vegetation scenes (2026)</div>
       <div style="font-style: italic;"><strong>Mario Malizia</strong>, Marnix Enting, Rob Haelterman, and Ken Hasselmann</div>
       <div style="margin-top: 5px;">
         <span class="badge" style="background-color: #4285f4; color: white; padding: 5px 10px;">ECCV - Curated Data for Efficient Learning (CDEL) Workshop</span>
@@ -102,7 +102,7 @@ social: false
       <img src="assets/img/publication_preview/2025_ral_thumbnail.png" style="width: 100%; max-width: 180px; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);" alt="thumbnail">
     </div>
     <div class="col-sm-9" style="flex: 0 0 75%; max-width: 75%; padding-left: 20px;">
-      <div style="font-weight: bold; font-size: 1.1em;">MineInsight: A Multi-Sensor Dataset for Humanitarian Demining Robotics in Off-Road Environments (2025)</div>
+      <div style="font-weight: bold; font-size: 1.1em;">MineInsight: a multi-sensor dataset for humanitarian demining robotics in off-road environments (2025)</div>
       <div style="font-style: italic;"><strong>Mario Malizia</strong>, Charles Hamesse, Ken Hasselmann, Geert De Cubber, Nikolaos Tsiogkas, Eric Demeester, and Rob Haelterman</div>
       <div style="margin-top: 5px;">
         <span class="badge" style="background-color: #34a853; color: white; padding: 5px 10px;">RA-L</span>
@@ -120,7 +120,7 @@ social: false
       <img src="assets/img/publication_preview/2025_iccas_thumbnail.png" style="width: 100%; max-width: 180px; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);" alt="thumbnail">
     </div>
     <div class="col-sm-9" style="flex: 0 0 75%; max-width: 75%; padding-left: 20px;">
-      <div style="font-weight: bold; font-size: 1.1em;">PFM-1 Landmine Detection in Vegetation Using Thermal Imaging with Limited Training Data (2025)</div>
+      <div style="font-weight: bold; font-size: 1.1em;">PFM-1 landmine detection in vegetation using thermal imaging with limited training data (2025)</div>
       <div style="font-style: italic;"><strong>Mario Malizia</strong>, Ken Hasselmann, Alessandra Miuccio, Rob Haelterman, Nikolaos Tsiogkas, and Eric Demeester</div>
       <div style="margin-top: 5px;">
         <span class="badge" style="background-color: #4285f4; color: white; padding: 5px 10px;">ICCAS</span>
@@ -138,7 +138,7 @@ social: false
       <img src="assets/img/publication_preview/2024_roman_thumbnail.jpg" style="width: 100%; max-width: 180px; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);" alt="thumbnail">
     </div>
     <div class="col-sm-9" style="flex: 0 0 75%; max-width: 75%; padding-left: 20px;">
-      <div style="font-weight: bold; font-size: 1.2em;">HADRON: Human-friendly Control and Artificial Intelligence for Military Drone Operations (2024)</div>
+      <div style="font-weight: bold; font-size: 1.2em;">HADRON: human-friendly control and artificial intelligence for military drone operations (2024)</div>
       <div style="font-style: italic;">Ana M. Casado Faulí, <strong>Mario Malizia</strong>, Ken Hasselmann, Emile Le Flécher, Geert De Cubber, and Ben Lauwens</div>
       <div style="margin-top: 5px;">
         <span class="badge" style="background-color: #4285f4; color: white; padding: 5px 10px;">RO-MAN - Workshop on Variable Autonomy for Human-Robot Teaming</span>
