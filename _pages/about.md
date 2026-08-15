@@ -80,6 +80,22 @@ social: false
 ### Publications
 
 <div class="publications">
+
+  <div class="row pub-row" style="margin-bottom: 25px; border: 1px solid #ddd; padding: 20px; border-radius: 8px;">
+    <div class="col-sm-3" style="flex: 0 0 25%; max-width: 25%; text-align: center;">
+      <img src="assets/img/publication_preview/2026_eccv_thumbnail.png" style="width: 100%; max-width: 180px; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);" alt="thumbnail">
+    </div>
+    <div class="col-sm-9" style="flex: 0 0 75%; max-width: 75%; padding-left: 20px;">
+      <div style="font-weight: bold; font-size: 1.1em;">Diffuse the Object, Keep Its Label: Curating Detector Training Data from a Few Unlabeled Photographs via VLM-Built 3D Vegetation Scenes (2026)</div>
+      <div style="font-style: italic;"><strong>Mario Malizia</strong>, Marnix Enting, Rob Haelterman, and Ken Hasselmann</div>
+      <div style="margin-top: 5px;">
+        <span class="badge" style="background-color: #4285f4; color: white; padding: 5px 10px;">ECCV - Curated Data for Efficient Learning (CDEL) Workshop</span>
+      </div>
+      <div style="margin-top: 10px;">
+        <a href="https://arxiv.org/pdf/2608.09691" class="btn btn-sm z-depth-0" role="button" style="border: 1px solid #4285f4; color: #4285f4;">Paper</a>
+      </div>
+    </div>
+  </div>
   
   <div class="row pub-row" style="margin-bottom: 25px; border: 1px solid #ddd; padding: 20px; border-radius: 8px;">
     <div class="col-sm-3" style="flex: 0 0 25%; max-width: 25%; text-align: center;">
