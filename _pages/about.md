@@ -143,6 +143,7 @@ social: false
       <div style="font-style: italic;">Ana M. Casado Faulí, <strong>Mario Malizia</strong>, Ken Hasselmann, Emile Le Flécher, Geert De Cubber, and Ben Lauwens</div>
       <div style="margin-top: 5px;">
         <span class="badge" style="background-color: #4285f4; color: white; padding: 5px 10px;">RO-MAN - Workshop on Variable Autonomy for Human-Robot Teaming</span>
+        <span class="badge" style="background-color: #fbbc04; color: #333; padding: 5px 10px;">Poster</span>
       </div>
       <div style="margin-top: 10px;">
         <a href="https://arxiv.org/abs/2408.07063" class="btn btn-sm z-depth-0" role="button" style="border: 1px solid #4285f4; color: #4285f4;">Paper</a>
@@ -159,6 +160,7 @@ social: false
       <div style="font-style: italic;">Ken Hasselmann, <strong>Mario Malizia</strong>, Rafael Caballero, Fabio Polisano, Shashank Govindaraj, Jakob Stigler, Oleksii Ilchenko, Milan Bajic, and Geert De Cubber</div>
       <div style="margin-top: 5px;">
         <span class="badge" style="background-color: #4285f4; color: white; padding: 5px 10px;">ICRA - Workshop on Field Robotics</span>
+        <span class="badge" style="background-color: #fbbc04; color: #333; padding: 5px 10px;">Poster</span>
       </div>
       <div style="margin-top: 10px;">
         <a href="https://arxiv.org/pdf/2404.14167" class="btn btn-sm z-depth-0" role="button" style="border: 1px solid #4285f4; color: #4285f4;">Paper</a>
