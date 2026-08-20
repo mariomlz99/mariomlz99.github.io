@@ -90,6 +90,7 @@ social: false
       <div style="font-style: italic;"><strong>Mario Malizia</strong>, Marnix Enting, Rob Haelterman, and Ken Hasselmann</div>
       <div style="margin-top: 5px;">
         <span class="badge" style="background-color: #4285f4; color: white; padding: 5px 10px;">ECCV - Curated Data for Efficient Learning (CDEL) Workshop</span>
+        <span class="badge" style="background-color: #ff9800; color: white; padding: 5px 10px;">Oral</span>
       </div>
       <div style="margin-top: 10px;">
         <a href="https://arxiv.org/pdf/2608.09691" class="btn btn-sm z-depth-0" role="button" style="border: 1px solid #4285f4; color: #4285f4;">Paper</a>
