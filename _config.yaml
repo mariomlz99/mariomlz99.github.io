@@ -33,7 +33,7 @@ enable_publication_thumbnails: true
 
 # Questi badge ora servono solo se decidi di usare il plugin scholar automatico
 display_publications_badges:
-  "ICCAS": "primary"
+  "IEEE ICCAS": "primary"
   "IEEE RA-L": "success"
   "Oral": "warning"
 

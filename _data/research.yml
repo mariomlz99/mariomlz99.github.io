@@ -13,9 +13,9 @@
   type: Conference
   presentations: [Oral]
   status: Provisional
-  image: /assets/img/publication_preview/2026_ssrr_thumbnail.jpg
-  image_alt: Synthetic PFM-1 and PMA-2 landmines in a vegetated scene from the Blender simulator
-  # Still extracted from assets/simulator_preview.gif in the repository below.
+  image: /assets/img/publication_preview/2026_ssrr_preview.gif
+  image_alt: Animated Blender simulator preview showing synthetic PFM-1 and PMA-2 landmines in vegetation
+  # Animation from assets/simulator_preview.gif in the repository below.
   paper:
   repository: https://github.com/mariomlz99/ssrr2026-photoreal-landmine
 
@@ -28,7 +28,7 @@
     - Rob Haelterman
     - Ken Hasselmann
   venue: ECCV
-  workshop: Curated Data for Efficient Learning (CDEL)
+  workshop: Curated Data for Efficient Learning (CDEL) Workshop
   type: Workshop
   presentations: [Oral, Poster]
   image: /assets/img/publication_preview/2026_eccv_thumbnail.png
@@ -46,9 +46,9 @@
     - Nikolaos Tsiogkas
     - Eric Demeester
     - Rob Haelterman
-  venue: RA-L
+  venue: IEEE RA-L
   type: Journal
-  presentations: [Oral @ ICRA]
+  presentations: [Oral @ IEEE ICRA]
   image: /assets/img/publication_preview/2025_ral_thumbnail.png
   image_alt: MineInsight multi-sensor dataset for humanitarian demining robotics
   paper: https://ieeexplore.ieee.org/document/11297788
@@ -64,7 +64,7 @@
     - Rob Haelterman
     - Nikolaos Tsiogkas
     - Eric Demeester
-  venue: ICCAS
+  venue: IEEE ICCAS
   type: Conference
   presentations: [Oral]
   image: /assets/img/publication_preview/2025_iccas_thumbnail.png
@@ -82,8 +82,8 @@
     - Emile Le Flécher
     - Geert De Cubber
     - Ben Lauwens
-  venue: RO-MAN
-  workshop: Variable Autonomy for Human-Robot Teaming
+  venue: IEEE RO-MAN
+  workshop: Variable Autonomy for Human-Robot Teaming Workshop
   type: Workshop
   presentations: [Poster]
   image: /assets/img/publication_preview/2024_roman_thumbnail.jpg
@@ -103,8 +103,8 @@
     - Oleksii Ilchenko
     - Milan Bajic
     - Geert De Cubber
-  venue: ICRA
-  workshop: Field Robotics
+  venue: IEEE ICRA
+  workshop: Field Robotics Workshop
   type: Workshop
   presentations: [Poster]
   image: /assets/img/publication_preview/2024_icra_thumbnail.png
