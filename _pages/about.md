@@ -45,12 +45,105 @@ social: false
   .social-github { color: #333 !important; }
   .social-orcid { color: #a6ce39 !important; }
 
-  /* 5. Layout pubblicazioni fisso orizzontale */
-  .pub-row {
-    display: flex !important;
-    flex-direction: row !important;
-    align-items: center !important;
-    flex-wrap: nowrap !important;
+  /* Shared layout for publications and workshop papers. */
+  .research-list {
+    display: grid;
+    gap: 24px;
+    margin-top: 20px;
+    clear: both;
+  }
+  .research-card {
+    display: grid;
+    grid-template-columns: minmax(0, 180px) minmax(0, 1fr);
+    align-items: center;
+    gap: 24px;
+    padding: 20px;
+    border: 1px solid var(--global-divider-color, #ddd);
+    border-radius: 8px;
+  }
+  .research-preview {
+    text-align: center;
+  }
+  .research-preview img {
+    width: 100%;
+    max-width: 180px;
+    max-height: 160px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 4px;
+  }
+  .research-content {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+  .research-title {
+    margin: 0 0 6px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 1.4;
+  }
+  .research-year {
+    white-space: nowrap;
+  }
+  .research-authors {
+    margin: 0 0 8px;
+    font-style: italic;
+    line-height: 1.5;
+  }
+  .research-venue {
+    margin: 0 0 8px;
+    line-height: 1.5;
+  }
+  .research-badges,
+  .research-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+  }
+  .research-badge {
+    padding: 4px 9px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+  .research-badge--conference { background: #eaf2ff; color: #2459a6; }
+  .research-badge--journal { background: #e7f5eb; color: #256d3b; }
+  .research-badge--workshop { background: #f1edff; color: #6745a5; }
+  .research-badge--presentation { background: #fff0d8; color: #754800; }
+  .research-badge--status { background: #f0f0f0; color: #555; }
+  .research-links {
+    margin-top: 12px;
+    gap: 8px;
+  }
+  .research-link {
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 12px;
+    border: 1px solid currentColor;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+  .research-link--paper { color: var(--global-theme-color, #2459a6); }
+  .research-link--repository { color: var(--global-text-color, #333); }
+  .research-link--pending {
+    color: var(--global-text-color-light, #666);
+    border-style: dashed;
+  }
+  a.research-link:hover { text-decoration: underline; }
+  a.research-link:focus-visible {
+    outline: 2px solid var(--global-theme-color, #2459a6);
+    outline-offset: 3px;
+  }
+  @media (max-width: 575px) {
+    .research-card {
+      grid-template-columns: minmax(0, 1fr);
+      gap: 16px;
+      padding: 16px;
+    }
   }
 </style>
 
@@ -77,95 +170,10 @@ social: false
 </div>
 
 ---
-### Publications
+### Publications & Workshops
 
-<div class="publications">
-
-  <div class="row pub-row" style="margin-bottom: 25px; border: 1px solid #ddd; padding: 20px; border-radius: 8px;">
-    <div class="col-sm-3" style="flex: 0 0 25%; max-width: 25%; text-align: center;">
-      <img src="assets/img/publication_preview/2026_eccv_thumbnail.png" style="width: 100%; max-width: 180px; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);" alt="thumbnail">
-    </div>
-    <div class="col-sm-9" style="flex: 0 0 75%; max-width: 75%; padding-left: 20px;">
-      <div style="font-weight: bold; font-size: 1.1em;">Diffuse the object, keep its label: curating detector training data from a few unlabeled photographs via VLM-built 3D vegetation scenes (2026)</div>
-      <div style="font-style: italic;"><strong>Mario Malizia</strong>, Marnix Enting, Rob Haelterman, and Ken Hasselmann</div>
-      <div style="margin-top: 5px;">
-        <span class="badge" style="background-color: #4285f4; color: white; padding: 5px 10px;">ECCV - Curated Data for Efficient Learning (CDEL) Workshop</span>
-        <span class="badge" style="background-color: #ff9800; color: white; padding: 5px 10px;">Oral</span>
-      </div>
-      <div style="margin-top: 10px;">
-        <a href="https://arxiv.org/pdf/2608.09691" class="btn btn-sm z-depth-0" role="button" style="border: 1px solid #4285f4; color: #4285f4;">Paper</a>
-      </div>
-    </div>
-  </div>
-  
-  <div class="row pub-row" style="margin-bottom: 25px; border: 1px solid #ddd; padding: 20px; border-radius: 8px;">
-    <div class="col-sm-3" style="flex: 0 0 25%; max-width: 25%; text-align: center;">
-      <img src="assets/img/publication_preview/2025_ral_thumbnail.png" style="width: 100%; max-width: 180px; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);" alt="thumbnail">
-    </div>
-    <div class="col-sm-9" style="flex: 0 0 75%; max-width: 75%; padding-left: 20px;">
-      <div style="font-weight: bold; font-size: 1.1em;">MineInsight: a multi-sensor dataset for humanitarian demining robotics in off-road environments (2025)</div>
-      <div style="font-style: italic;"><strong>Mario Malizia</strong>, Charles Hamesse, Ken Hasselmann, Geert De Cubber, Nikolaos Tsiogkas, Eric Demeester, and Rob Haelterman</div>
-      <div style="margin-top: 5px;">
-        <span class="badge" style="background-color: #34a853; color: white; padding: 5px 10px;">RA-L</span>
-        <span class="badge" style="background-color: #ff9800; color: white; padding: 5px 10px;">ICRA Oral</span>
-      </div>
-      <div style="margin-top: 10px;">
-        <a href="https://ieeexplore.ieee.org/document/11297788" class="btn btn-sm z-depth-0" role="button" style="border: 1px solid #4285f4; color: #4285f4; margin-right: 5px;">Paper</a>
-        <a href="https://github.com/mariomlz99/MineInsight" class="btn btn-sm z-depth-0" role="button" style="border: 1px solid #333; color: #333;">GitHub</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="row pub-row" style="margin-bottom: 25px; border: 1px solid #ddd; padding: 20px; border-radius: 8px;">
-    <div class="col-sm-3" style="flex: 0 0 25%; max-width: 25%; text-align: center;">
-      <img src="assets/img/publication_preview/2025_iccas_thumbnail.png" style="width: 100%; max-width: 180px; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);" alt="thumbnail">
-    </div>
-    <div class="col-sm-9" style="flex: 0 0 75%; max-width: 75%; padding-left: 20px;">
-      <div style="font-weight: bold; font-size: 1.1em;">PFM-1 landmine detection in vegetation using thermal imaging with limited training data (2025)</div>
-      <div style="font-style: italic;"><strong>Mario Malizia</strong>, Ken Hasselmann, Alessandra Miuccio, Rob Haelterman, Nikolaos Tsiogkas, and Eric Demeester</div>
-      <div style="margin-top: 5px;">
-        <span class="badge" style="background-color: #4285f4; color: white; padding: 5px 10px;">ICCAS</span>
-        <span class="badge" style="background-color: #ff9800; color: white; padding: 5px 10px;">Oral</span>
-      </div>
-      <div style="margin-top: 10px;">
-        <a href="https://ieeexplore.ieee.org/document/11301116/" class="btn btn-sm z-depth-0" role="button" style="border: 1px solid #4285f4; color: #4285f4;">Paper</a>
-        <a href="https://github.com/mariomlz99/pfm1-thermal-detection" class="btn btn-sm z-depth-0" role="button" style="border: 1px solid #333; color: #333;">GitHub</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="row pub-row" style="margin-bottom: 25px; border: 1px solid #ddd; padding: 20px; border-radius: 8px;">
-    <div class="col-sm-3" style="flex: 0 0 25%; max-width: 25%; text-align: center;">
-      <img src="assets/img/publication_preview/2024_roman_thumbnail.jpg" style="width: 100%; max-width: 180px; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);" alt="thumbnail">
-    </div>
-    <div class="col-sm-9" style="flex: 0 0 75%; max-width: 75%; padding-left: 20px;">
-      <div style="font-weight: bold; font-size: 1.2em;">HADRON: human-friendly control and artificial intelligence for military drone operations (2024)</div>
-      <div style="font-style: italic;">Ana M. Casado Faulí, <strong>Mario Malizia</strong>, Ken Hasselmann, Emile Le Flécher, Geert De Cubber, and Ben Lauwens</div>
-      <div style="margin-top: 5px;">
-        <span class="badge" style="background-color: #4285f4; color: white; padding: 5px 10px;">RO-MAN - Workshop on Variable Autonomy for Human-Robot Teaming</span>
-        <span class="badge" style="background-color: #fbbc04; color: #333; padding: 5px 10px;">Poster</span>
-      </div>
-      <div style="margin-top: 10px;">
-        <a href="https://arxiv.org/abs/2408.07063" class="btn btn-sm z-depth-0" role="button" style="border: 1px solid #4285f4; color: #4285f4;">Paper</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="row pub-row" style="margin-bottom: 25px; border: 1px solid #ddd; padding: 20px; border-radius: 8px;">
-    <div class="col-sm-3" style="flex: 0 0 25%; max-width: 25%; text-align: center;">
-      <img src="assets/img/publication_preview/2024_icra_thumbnail.png" style="width: 100%; max-width: 180px; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);" alt="thumbnail">
-    </div>
-    <div class="col-sm-9" style="flex: 0 0 75%; max-width: 75%; padding-left: 20px;">
-      <div style="font-weight: bold; font-size: 1.2em;">A multi-robot system for the detection of explosive devices (2024)</div>
-      <div style="font-style: italic;">Ken Hasselmann, <strong>Mario Malizia</strong>, Rafael Caballero, Fabio Polisano, Shashank Govindaraj, Jakob Stigler, Oleksii Ilchenko, Milan Bajic, and Geert De Cubber</div>
-      <div style="margin-top: 5px;">
-        <span class="badge" style="background-color: #4285f4; color: white; padding: 5px 10px;">ICRA - Workshop on Field Robotics</span>
-        <span class="badge" style="background-color: #fbbc04; color: #333; padding: 5px 10px;">Poster</span>
-      </div>
-      <div style="margin-top: 10px;">
-        <a href="https://arxiv.org/pdf/2404.14167" class="btn btn-sm z-depth-0" role="button" style="border: 1px solid #4285f4; color: #4285f4;">Paper</a>
-      </div>
-    </div>
-  </div>
-
+<div class="research-list">
+{% for entry in site.data.research %}
+  {% include research-card.liquid entry=entry %}
+{% endfor %}
 </div>

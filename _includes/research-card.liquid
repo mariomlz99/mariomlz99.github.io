@@ -1,0 +1,26 @@
+{%- assign entry = include.entry -%}
+<article class="research-card" aria-labelledby="{{ entry.id }}-title">
+  <div class="research-preview">
+    <img src="{{ entry.image | relative_url }}" alt="{{ entry.image_alt | escape }}" loading="lazy" decoding="async">
+  </div>
+  <div class="research-content">
+    <h4 class="research-title" id="{{ entry.id }}-title">{{ entry.title | escape }} <span class="research-year">({{ entry.year }})</span></h4>
+    <p class="research-authors">{% for author in entry.authors %}{% unless forloop.first %}{% if forloop.last %}, and {% else %}, {% endif %}{% endunless %}{% if author == site.title %}<strong>{{ author | escape }}</strong>{% else %}{{ author | escape }}{% endif %}{% endfor %}</p>
+    <p class="research-venue"><strong>{{ entry.venue | escape }}</strong>{% if entry.workshop %} · {{ entry.workshop | escape }}{% endif %}</p>
+    <div class="research-badges">
+      <span class="research-badge research-badge--{{ entry.type | downcase }}">{{ entry.type | escape }}</span>
+      {%- for presentation in entry.presentations -%}<span class="research-badge research-badge--presentation">{{ presentation | escape }}</span>{%- endfor -%}
+      {%- if entry.status -%}<span class="research-badge research-badge--status">{{ entry.status | escape }}</span>{%- endif -%}
+    </div>
+    <div class="research-links">
+      {%- if entry.paper -%}
+      <a class="research-link research-link--paper" href="{{ entry.paper | escape }}" aria-label="Paper: {{ entry.title | escape }}">Paper</a>
+      {%- else -%}
+      <span class="research-link research-link--pending" aria-disabled="true">Paper — coming soon</span>
+      {%- endif -%}
+      {%- if entry.repository -%}
+      <a class="research-link research-link--repository" href="{{ entry.repository | escape }}" aria-label="Repository: {{ entry.title | escape }}">Repository</a>
+      {%- endif -%}
+    </div>
+  </div>
+</article>

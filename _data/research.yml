@@ -1,0 +1,112 @@
+# Newest first. All entries use the same card in _includes/research-card.liquid.
+# Leave paper blank until a public link is available; the card shows a placeholder.
+- id: ssrr-2026
+  title: "Towards replacing real images with synthetic data for surface landmine detection"
+  year: 2026
+  authors:
+    - Mario Malizia
+    - Nikolaos Tsiogkas
+    - Eric Demeester
+    - Rob Haelterman
+    - Ken Hasselmann
+  venue: IEEE SSRR
+  type: Conference
+  presentations: [Oral]
+  status: Provisional
+  image: /assets/img/publication_preview/2026_ssrr_thumbnail.jpg
+  image_alt: Synthetic PFM-1 and PMA-2 landmines in a vegetated scene from the Blender simulator
+  # Still extracted from assets/simulator_preview.gif in the repository below.
+  paper:
+  repository: https://github.com/mariomlz99/ssrr2026-photoreal-landmine
+
+- id: eccv-2026
+  title: "Diffuse the object, keep its label: curating detector training data from a few unlabeled photographs via VLM-built 3D vegetation scenes"
+  year: 2026
+  authors:
+    - Mario Malizia
+    - Marnix Enting
+    - Rob Haelterman
+    - Ken Hasselmann
+  venue: ECCV
+  workshop: Curated Data for Efficient Learning (CDEL)
+  type: Workshop
+  presentations: [Oral, Poster]
+  image: /assets/img/publication_preview/2026_eccv_thumbnail.png
+  image_alt: Synthetic vegetation scenes for the CDEL workshop paper on detector training data
+  paper: https://arxiv.org/pdf/2608.09691
+
+- id: ral-2025
+  title: "MineInsight: a multi-sensor dataset for humanitarian demining robotics in off-road environments"
+  year: 2025
+  authors:
+    - Mario Malizia
+    - Charles Hamesse
+    - Ken Hasselmann
+    - Geert De Cubber
+    - Nikolaos Tsiogkas
+    - Eric Demeester
+    - Rob Haelterman
+  venue: RA-L
+  type: Journal
+  presentations: [Oral @ ICRA]
+  image: /assets/img/publication_preview/2025_ral_thumbnail.png
+  image_alt: MineInsight multi-sensor dataset for humanitarian demining robotics
+  paper: https://ieeexplore.ieee.org/document/11297788
+  repository: https://github.com/mariomlz99/MineInsight
+
+- id: iccas-2025
+  title: "PFM-1 landmine detection in vegetation using thermal imaging with limited training data"
+  year: 2025
+  authors:
+    - Mario Malizia
+    - Ken Hasselmann
+    - Alessandra Miuccio
+    - Rob Haelterman
+    - Nikolaos Tsiogkas
+    - Eric Demeester
+  venue: ICCAS
+  type: Conference
+  presentations: [Oral]
+  image: /assets/img/publication_preview/2025_iccas_thumbnail.png
+  image_alt: Thermal imaging for PFM-1 landmine detection in vegetation
+  paper: https://ieeexplore.ieee.org/document/11301116/
+  repository: https://github.com/mariomlz99/pfm1-thermal-detection
+
+- id: roman-2024
+  title: "HADRON: human-friendly control and artificial intelligence for military drone operations"
+  year: 2024
+  authors:
+    - Ana M. Casado Faulí
+    - Mario Malizia
+    - Ken Hasselmann
+    - Emile Le Flécher
+    - Geert De Cubber
+    - Ben Lauwens
+  venue: RO-MAN
+  workshop: Variable Autonomy for Human-Robot Teaming
+  type: Workshop
+  presentations: [Poster]
+  image: /assets/img/publication_preview/2024_roman_thumbnail.jpg
+  image_alt: HADRON human-robot teaming for drone operations
+  paper: https://arxiv.org/abs/2408.07063
+
+- id: icra-2024
+  title: A multi-robot system for the detection of explosive devices
+  year: 2024
+  authors:
+    - Ken Hasselmann
+    - Mario Malizia
+    - Rafael Caballero
+    - Fabio Polisano
+    - Shashank Govindaraj
+    - Jakob Stigler
+    - Oleksii Ilchenko
+    - Milan Bajic
+    - Geert De Cubber
+  venue: ICRA
+  workshop: Field Robotics
+  type: Workshop
+  presentations: [Poster]
+  image: /assets/img/publication_preview/2024_icra_thumbnail.png
+  image_alt: Multi-robot system for explosive-device detection in the field
+  paper: https://arxiv.org/pdf/2404.14167
